@@ -41,7 +41,7 @@ function convert()
     console.log(typeof(value1));
     if(removed=="celsius")
     {
-        if(selected=="Farheinheit")
+        if(selected=="Fahrenheit")
         {
            value2 = value1*9/5 + 32;
               
@@ -54,7 +54,7 @@ function convert()
         message.innerHTML = "The temperature in "+removed+" is "+value1+", its "+selected+" temperature is "+value2;
         value2 = 0;
     }
-    else if(removed=="Farheinheit")
+    else if(removed=="Fahrenheit")
     {
         if(selected=="celsius")
         {
