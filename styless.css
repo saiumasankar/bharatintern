@@ -1,0 +1,114 @@
+body{
+    background-image: url("pngtree-simple-atmospheric-blue-temperature-needle-illustration-background-image_279280.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+}
+div
+{
+    text-align: center;
+    /* border: solid; */
+    margin:auto;
+    margin-top: 100px;
+    margin-left:30px;
+}
+h1
+{
+    color:rgb(48, 27, 168);
+    font-size: 4rem;
+}
+.selecting
+{
+    margin-top: 12px;
+    display: flex;
+    justify-content: center;
+}
+.selecting h3
+{
+    margin-right: 18px;
+    color: rgb(23, 22, 22);
+    font-size: 20px;
+}
+.selecting select
+{
+    width: 250px;
+    height: 40px;
+    margin-top: 10px;
+    background-color: transparent;
+    box-shadow: 0 0  1em  rgb(14, 10, 36);
+    font-size: 18px;
+    text-align: center;
+}
+
+.converting
+{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+.converting h3
+{
+    margin-right: 18px;
+    color: rgb(23, 22, 22);
+    font-size: 20px;
+}
+.converting select
+{
+    width: 250px;
+    height: 40px;
+    margin-top: 10px;
+    background-color: transparent;
+    box-shadow: 0 0  1em  rgb(14, 10, 36);
+    font-size: 18px;
+    text-align: center;
+    margin-right: 94px;
+}
+.middle
+{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+
+}
+.middle h3
+{
+    margin-right: 18px;
+    color: rgb(23, 22, 22);
+    font-size: 20px;
+}
+.middle input
+{
+    width: 250px;
+    height: 40px;
+    margin-top: 10px;
+    background-color: transparent;
+    box-shadow: 0 0  1em  rgb(14, 10, 36);
+    font-size: 18px;
+    text-align: center;
+    margin-right: 54px;
+}
+button
+{
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 0 1em;
+}
+.s
+{
+    font-size: 20px;
+    border: solid;
+    background-color: white;
+    width:600px;
+    margin-left: 130px;
+    visibility: hidden;
+    
+}
+.ee
+{
+    visibility: visible;
+}
+

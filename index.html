@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature-Converter</title>
+    <link rel="stylesheet" href="styless.css">
+</head>
+<body>
+    <div>
+    <h1>TEMPERATURE CONVERTER</h1><br>
+    <div class="selecting">
+    <h3>Select the unit </h3>
+    <select name="temp" id="temp">
+        <option value="none">Select Unit</option>
+        <option value="celsius">Celsius</option>
+        <option value="Farheinheit">Farheinheit</option>
+        <option value="Kelvin">Kelvin</option>
+    </select></div>
+    <div class="middle">
+    <h3>Enter Temperature: </h3>
+    <input type="number" id="price" 
+        name="price" min="0" 
+         step="0.01" value = '0'/> </div><br>
+    <div class="converting">     
+    <h3>Select the unit to convert</h3>
+    <select name="temp" id="e1">
+        <option value="none">Select Unit</option>
+        <option value="celsius">Celsius</option>
+        <option value="Farheinheit">Farheinheit</option>
+        <option value="Kelvin">Kelvin</option>
+    </select>
+    </div><br>
+    <button name="submit">Convert</button><br>
+    <p class="s"></p>
+    </div>
+    <script src="index.js" charset="UTF-8"></script>
+
+</body>
+</html>
